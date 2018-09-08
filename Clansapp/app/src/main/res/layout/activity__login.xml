@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical|center_horizontal"
+    tools:context="br.com.macaxeiratec.activity.ActivityLogin">
+
+    <Button
+        android:id="@+id/botaoLogin"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="117dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/bt_login"
+        android:theme="@style/botaoPadrao"/>
+
+    <EditText
+        android:id="@+id/editeText_login_email"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="Digite seu email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/text_color_primary" />
+
+    <TextView
+        android:id="@+id/textView_cadastrese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="85dp"
+        android:onClick="abrirCadastroUsuario"
+        android:text="@string/cadastrese"
+        android:textColor="@color/text_color_primary"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="128dp"
+        android:src="@drawable/macaxeira"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="31dp" />
+
+    <EditText
+        android:id="@+id/editText_login_senha"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="204dp"
+        android:ems="10"
+        android:hint="Digite sua senha"
+        android:inputType="textPassword"
+        android:textColor="@color/text_color_primary"
+        android:textSize="16sp" />
+
+</RelativeLayout>

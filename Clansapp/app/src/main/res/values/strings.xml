@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Clansapp</string>
+    <string name="action_settings">Configurações</string>
+    <string name="item_sair">Sair</string>
+    <string name="botao_cadastrar">CADASTRAR</string>
+    <string name="botao_validar">VALIDAR</string>
+    <string name="texto_validação">Validação</string>
+    <string name="text_validação2">Você recebeu um SMS para validação do seu número, digite o códig de validação abaixo:</string>
+    <string name="bt_login">LOGIN</string>
+    <string name="cadastrese">Nâo possui conta? Cadastre-se!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
